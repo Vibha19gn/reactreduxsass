@@ -9,11 +9,14 @@ Add test cases
 
 ## Usage
 * Download https://nodejs.org/en/download/
-* git clone https://github.com/Vibha19gn/reactreduxsass.git
+* Download the codebase.
 * cd reactreduxsass
 * npm install
 
 ## Run
+*Auto launch
+* npm run dev
+
 * npm run start
 * http://localhost:8080/
 
