@@ -30,7 +30,6 @@ class Posts extends Component {
     const {
       posts = []
     } = this.props;
-    console.log('posts===aiyyo', posts);
     return (
       <div className="posts">
         {posts &&

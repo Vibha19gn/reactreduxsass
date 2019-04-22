@@ -31,6 +31,7 @@ body {
 .content {
   padding: 40px 0 0 0;
   min-height: calc(100vh - 70px);
+  position: relative;
   .posts {
     padding: 0 30px;
     .postsRow {
@@ -105,4 +106,16 @@ body {
     letter-spacing: 1.4px;
     color: rgba(255, 255, 255, 0.4);
   }
+}
+
+.spinner {
+  font-size: 100px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.hideSpinner {
+  display: none;
 }

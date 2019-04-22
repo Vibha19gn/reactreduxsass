@@ -4,6 +4,5 @@ export const actionCreator = (type, ...argKeys) =>
     argKeys.forEach((key, index) => {
       action[key] = args[index];
     });
-    console.log('fdggfghfg===', action);
     return action;
   };

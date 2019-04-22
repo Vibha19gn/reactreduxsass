@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 import Posts from '../components/posts';
+import Spinner from '../components/spinner';
 import '../styles/App.scss';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <Header/>
         <div className="content">
           <Posts/>
+          <Spinner/>
         </div>
         <Footer/>
       </div>
