@@ -4,9 +4,6 @@
 
 Assignment
 
-## Future
-Add test cases
-
 ## Usage
 * Download https://nodejs.org/en/download/
 * Download the codebase.
