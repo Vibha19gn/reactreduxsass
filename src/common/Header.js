@@ -5,7 +5,7 @@ export default class Header extends Component {
     return (
       <div className="bn-bg">
         <nav>
-         <span>BLOG</span>
+         <span>Dynamic carousel</span>
         </nav>
       </div>
     );

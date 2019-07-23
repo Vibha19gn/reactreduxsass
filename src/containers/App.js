@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from "prop-types";
 import Header from '../common/Header';
 import Footer from '../common/Footer';
-import Posts from '../components/posts';
+import Products from '../components/products';
 import Spinner from '../components/spinner';
 import '../styles/App.scss';
 
@@ -16,7 +16,7 @@ class App extends Component {
       <div>
         <Header/>
         <div className="content">
-          <Posts/>
+          <Products/>
           <Spinner/>
         </div>
         <Footer/>

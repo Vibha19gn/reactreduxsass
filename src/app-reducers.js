@@ -1,12 +1,12 @@
 import { combineReducers } from "redux";
 import {
-  postsReducers,
-  config as postsConfig
-} from "./components/posts";
+  productsReducers,
+  config as productsConfig
+} from "./components/products"
 
 import { spinnerReducers as spinner } from "./components/spinner";
 
 export default combineReducers({
   spinner,
-  [postsConfig.STATE_KEY]: postsReducers
+  [productsConfig.STATE_KEY]: productsReducers
 });
